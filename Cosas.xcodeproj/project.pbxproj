@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D23862A52B835D0200286EBE /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D23862A42B835D0200286EBE /* Realm */; };
+		D23862A72B835D0200286EBE /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D23862A62B835D0200286EBE /* RealmSwift */; };
+		D23862AA2B835E3E00286EBE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23862A92B835E3E00286EBE /* StorageManager.swift */; };
+		D23862AC2B8360FD00286EBE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23862AB2B8360FD00286EBE /* DataManager.swift */; };
+		D23862B22B8376B700286EBE /* FilledButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23862B12B8376B700286EBE /* FilledButtonFactory.swift */; };
 		D27682092B80BBCB002F36A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27682082B80BBCB002F36A8 /* AppDelegate.swift */; };
 		D276820B2B80BBCB002F36A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276820A2B80BBCB002F36A8 /* SceneDelegate.swift */; };
-		D276820D2B80BBCB002F36A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276820C2B80BBCB002F36A8 /* ViewController.swift */; };
-		D27682102B80BBCB002F36A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D276820E2B80BBCB002F36A8 /* Main.storyboard */; };
+		D276820D2B80BBCB002F36A8 /* TasksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276820C2B80BBCB002F36A8 /* TasksListViewController.swift */; };
 		D27682122B80BBCC002F36A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27682112B80BBCC002F36A8 /* Assets.xcassets */; };
 		D27682152B80BBCC002F36A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27682132B80BBCC002F36A8 /* LaunchScreen.storyboard */; };
+		D276821F2B80BFE4002F36A8 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276821E2B80BFE4002F36A8 /* TaskViewController.swift */; };
+		D27682222B80C1F9002F36A8 /* ToDoTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27682212B80C1F9002F36A8 /* ToDoTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D23862A92B835E3E00286EBE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		D23862AB2B8360FD00286EBE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D23862B12B8376B700286EBE /* FilledButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButtonFactory.swift; sourceTree = "<group>"; };
 		D27682052B80BBCB002F36A8 /* Cosas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cosas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27682082B80BBCB002F36A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D276820A2B80BBCB002F36A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D276820C2B80BBCB002F36A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D276820F2B80BBCB002F36A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D276820C2B80BBCB002F36A8 /* TasksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListViewController.swift; sourceTree = "<group>"; };
 		D27682112B80BBCC002F36A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D27682142B80BBCC002F36A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D27682162B80BBCC002F36A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D276821E2B80BFE4002F36A8 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		D27682212B80C1F9002F36A8 /* ToDoTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,16 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23862A72B835D0200286EBE /* RealmSwift in Frameworks */,
+				D23862A52B835D0200286EBE /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D23862A82B835E2A00286EBE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D23862A92B835E3E00286EBE /* StorageManager.swift */,
+				D23862AB2B8360FD00286EBE /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D23862B02B8376A300286EBE /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				D23862B12B8376B700286EBE /* FilledButtonFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
 		D27681FC2B80BBCB002F36A8 = {
 			isa = PBXGroup;
 			children = (
 				D27682072B80BBCB002F36A8 /* Cosas */,
+				D27682132B80BBCC002F36A8 /* LaunchScreen.storyboard */,
+				D27682112B80BBCC002F36A8 /* Assets.xcassets */,
 				D27682062B80BBCB002F36A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +87,40 @@
 		D27682072B80BBCB002F36A8 /* Cosas */ = {
 			isa = PBXGroup;
 			children = (
-				D27682082B80BBCB002F36A8 /* AppDelegate.swift */,
-				D276820A2B80BBCB002F36A8 /* SceneDelegate.swift */,
-				D276820C2B80BBCB002F36A8 /* ViewController.swift */,
-				D276820E2B80BBCB002F36A8 /* Main.storyboard */,
-				D27682112B80BBCC002F36A8 /* Assets.xcassets */,
-				D27682132B80BBCC002F36A8 /* LaunchScreen.storyboard */,
-				D27682162B80BBCC002F36A8 /* Info.plist */,
+				D276821D2B80BC50002F36A8 /* ViewControllers */,
+				D23862A82B835E2A00286EBE /* Services */,
+				D23862B02B8376A300286EBE /* Factories */,
+				D27682202B80C1ED002F36A8 /* Models */,
+				D276821C2B80BC35002F36A8 /* App */,
 			);
 			path = Cosas;
+			sourceTree = "<group>";
+		};
+		D276821C2B80BC35002F36A8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D27682082B80BBCB002F36A8 /* AppDelegate.swift */,
+				D276820A2B80BBCB002F36A8 /* SceneDelegate.swift */,
+				D27682162B80BBCC002F36A8 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D276821D2B80BC50002F36A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D276820C2B80BBCB002F36A8 /* TasksListViewController.swift */,
+				D276821E2B80BFE4002F36A8 /* TaskViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D27682202B80C1ED002F36A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D27682212B80C1F9002F36A8 /* ToDoTask.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +139,10 @@
 			dependencies = (
 			);
 			name = Cosas;
+			packageProductDependencies = (
+				D23862A42B835D0200286EBE /* Realm */,
+				D23862A62B835D0200286EBE /* RealmSwift */,
+			);
 			productName = Cosas;
 			productReference = D27682052B80BBCB002F36A8 /* Cosas.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +171,9 @@
 				Base,
 			);
 			mainGroup = D27681FC2B80BBCB002F36A8;
+			packageReferences = (
+				D23862A32B835D0100286EBE /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = D27682062B80BBCB002F36A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +190,6 @@
 			files = (
 				D27682152B80BBCC002F36A8 /* LaunchScreen.storyboard in Resources */,
 				D27682122B80BBCC002F36A8 /* Assets.xcassets in Resources */,
-				D27682102B80BBCB002F36A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +200,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D276820D2B80BBCB002F36A8 /* ViewController.swift in Sources */,
+				D276820D2B80BBCB002F36A8 /* TasksListViewController.swift in Sources */,
+				D276821F2B80BFE4002F36A8 /* TaskViewController.swift in Sources */,
+				D27682222B80C1F9002F36A8 /* ToDoTask.swift in Sources */,
+				D23862AC2B8360FD00286EBE /* DataManager.swift in Sources */,
+				D23862AA2B835E3E00286EBE /* StorageManager.swift in Sources */,
 				D27682092B80BBCB002F36A8 /* AppDelegate.swift in Sources */,
 				D276820B2B80BBCB002F36A8 /* SceneDelegate.swift in Sources */,
+				D23862B22B8376B700286EBE /* FilledButtonFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D276820E2B80BBCB002F36A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D276820F2B80BBCB002F36A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D27682132B80BBCC002F36A8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,12 +353,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3UHRLQ9522;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Cosas/Info.plist;
+				INFOPLIST_FILE = Cosas/App/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +366,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Penkov.Cosas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,12 +385,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3UHRLQ9522;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Cosas/Info.plist;
+				INFOPLIST_FILE = Cosas/App/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +398,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Penkov.Cosas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +430,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D23862A32B835D0100286EBE /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D23862A42B835D0200286EBE /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D23862A32B835D0100286EBE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		D23862A62B835D0200286EBE /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D23862A32B835D0100286EBE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D27681FD2B80BBCB002F36A8 /* Project object */;
 }
